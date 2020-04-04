@@ -1,0 +1,23 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: vikash86792
+    password: Kumar@singh
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+            required: true
+          auth: true
+
+email:
+  subject:
+    welcome: Welcome to Shopping-site
+    recovery_password: Recover your password
+
+server:
+  port: 8000
+  servlet:
+    context-path: /email
